@@ -18,4 +18,4 @@ _yardoc
 doc/
 
 # Sublime Text 3
-.sublime*
+*.sublime-*
