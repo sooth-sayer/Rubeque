@@ -13,6 +13,8 @@ require "test_23_set_intersection"
 require "test_24_getters_and_setters"
 require "test_25_queue_continuum"
 require "test_26_ternary_operator"
+require "test_27_caution_case"
+require "test_28_the_limits_of_probability"
 
 VersusAndTest.test_versus_and
 HomeOnTheRangeTest.test_home_on_the_range
@@ -26,3 +28,5 @@ SetIntersectionTest.test_set_intersection
 GettersAndSettersTest.test_getters_and_setters
 QueueContinuumTest.test_queue_continuum
 TernaryOperatorTest.test_ternary_operator
+CautionCaseTest.test_caution_case
+TheLimitsOfProbabilityTest.test_the_limits_of_probability
