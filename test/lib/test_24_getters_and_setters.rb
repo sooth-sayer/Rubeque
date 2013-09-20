@@ -1,6 +1,6 @@
 # Getters And Setters
 require "test/unit"
-require "character"
+require "Character"
 
 class GettersAndSettersTest
   extend Test::Unit::Assertions

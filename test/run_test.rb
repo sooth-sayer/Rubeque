@@ -12,6 +12,7 @@ require "test_22_alternate_array_notation"
 require "test_23_set_intersection"
 require "test_24_getters_and_setters"
 require "test_25_queue_continuum"
+require "test_26_ternary_operator"
 
 VersusAndTest.test_versus_and
 HomeOnTheRangeTest.test_home_on_the_range
@@ -24,3 +25,4 @@ AlternateArrayNotationTest.test_alternate_array_notation
 SetIntersectionTest.test_set_intersection
 GettersAndSettersTest.test_getters_and_setters
 QueueContinuumTest.test_queue_continuum
+TernaryOperatorTest.test_ternary_operator

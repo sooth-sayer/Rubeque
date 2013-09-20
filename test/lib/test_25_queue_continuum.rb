@@ -1,6 +1,6 @@
 # Queue continuum
 require "test/unit"
-require "queue"
+require "Queue"
 
 class QueueContinuumTest
   extend Test::Unit::Assertions
