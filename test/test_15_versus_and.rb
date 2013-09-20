@@ -1,10 +1,8 @@
 # && Versus And
-require "test/unit"
+require "./lib/test_requirements"
 
-class VersusAndTest
-  extend Test::Unit::Assertions
-
-  def self.test_versus_and
+class VersusAndTest < Test
+  def test_versus_and
     roses = "blue" && "red"
     violets = "blue" and "red"
 

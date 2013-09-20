@@ -19,3 +19,6 @@ doc/
 
 # Sublime Text 3
 *.sublime-*
+
+# Gemfile.lock
+Gemfile.lock

@@ -1,10 +1,8 @@
 # Ternary Operator
-require "test/unit"
+require "./lib/test_requirements"
 
-class TernaryOperatorTest
-  extend Test::Unit::Assertions
-
-  def self.test_ternary_operator
+class TernaryOperatorTest < Test
+  def test_ternary_operator
     a = "Miles O'Brien"
     b = "Barack Obama"
 

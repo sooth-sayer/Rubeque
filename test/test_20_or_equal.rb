@@ -1,10 +1,8 @@
 # Or Equal
-require "test/unit"
+require "./lib/test_requirements"
 
-class OrEqualTest
-  extend Test::Unit::Assertions
-
-  def self.test_or_equal
+class OrEqualTest < Test
+  def test_or_equal
     b = 8
     c = false
 

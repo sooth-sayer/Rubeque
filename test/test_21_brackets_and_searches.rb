@@ -1,10 +1,8 @@
 # Brackets And Searches
-require "test/unit"
+require "./lib/test_requirements"
 
-class BracketsAndSearchesTest
-  extend Test::Unit::Assertions
-
-  def self.test_brackets_and_searches
+class BracketsAndSearchesTest < Test
+  def test_brackets_and_searches
     assert_equal "hello world"[1], "e"
     assert_equal "what"[5],        nil
     assert_equal "rubeque"[3],     "e"

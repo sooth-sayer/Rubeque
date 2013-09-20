@@ -1,11 +1,9 @@
 # Queue continuum
-require "test/unit"
-require "Queue"
+require "./lib/test_requirements"
 
-class QueueContinuumTest
-  extend Test::Unit::Assertions
-
-  def self.test_queue_continuum
+class QueueContinuumTest < Test
+  include QueueContinuum
+  def test_queue_continuum
     queue = Queue.new([5, 6, 7, 8])
 
     assert_equal queue.pop, 5

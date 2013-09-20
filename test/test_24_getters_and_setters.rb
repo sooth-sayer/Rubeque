@@ -1,11 +1,9 @@
 # Getters And Setters
-require "test/unit"
-require "Character"
+require "./lib/test_requirements"
 
-class GettersAndSettersTest
-  extend Test::Unit::Assertions
-
-  def self.test_getters_and_setters
+class GettersAndSettersTest < Test
+  include GettersAndSetters
+  def test_getters_and_setters
     thorin = Character.new
     thorin.name = "Thorin Oakenshield"
     thorin.quote = "Some courage and some wisdom, blended in measure. If more of us valued food
