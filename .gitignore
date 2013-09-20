@@ -22,3 +22,6 @@ doc/
 
 # Gemfile.lock
 Gemfile.lock
+
+# RVM RC
+.rvmrc
