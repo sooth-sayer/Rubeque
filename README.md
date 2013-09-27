@@ -24,4 +24,5 @@ Or install it yourself as:
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+[![Build Status](https://travis-ci.org/sooth-sayer/Rubeque.png?branch=master)](https://travis-ci.org/sooth-sayer/Rubeque)
 [![Coverage Status](https://coveralls.io/repos/sooth-sayer/Rubeque/badge.png?branch=master)](https://coveralls.io/r/sooth-sayer/Rubeque?branch=master)
